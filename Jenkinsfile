@@ -10,14 +10,5 @@ pipeline {
         git 'https://github.com/Esha32/node-js-react-npm-app.git'
       }
     }
-     
-
-    
-            
-    stage('Test') {
-      steps {
-        sh 'node test'
-      }
-    }
   }
 }
