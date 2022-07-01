@@ -5,11 +5,7 @@ pipeline {
     
   stages {
         
-    stage('Git') {
-      steps {
-      
-      }
-    }
+   
      
     stage('Build') {
       steps {
